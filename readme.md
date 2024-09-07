@@ -1,13 +1,10 @@
 # Controle de LED Onboard e Publicação MQTT
 
-## Autor Original: Fábio Henrique Cabrini  
-## Revisões:
-- **Rev1 (26-08-2023)**: Código portado para o ESP32, adição da leitura de luminosidade e publicação no tópico apropriado do broker MQTT.  
-  **Autor**: Lucas Demetrius Augusto
-- **Rev2 (28-08-2023)**: Ajustes para o funcionamento no **FIWARE Descomplicado**.  
-  **Autor**: Fábio Henrique Cabrini
-- **Rev3 (01-11-2023)**: Refinamento e ajustes adicionais para compatibilidade com o **FIWARE Descomplicado**.  
-  **Autor**: Fábio Henrique Cabrini
+## Integrantes Nextfutre:
+** Geronimo Augusto rm557170**
+** Ana Laura rm554375**
+** Murilo Cordeiro rm556727**
+** Vitor Augusto rm555469**
 
 ## Descrição
 Este projeto controla o LED onboard de um ESP32 e envia o status do LED (ligado ou desligado) para um broker MQTT. Além disso, o código realiza a leitura do sensor de luminosidade e publica os valores de luminosidade em um tópico específico do broker MQTT.
