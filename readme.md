@@ -1,10 +1,10 @@
 # Controle de LED Onboard e Publicação MQTT
 
 ## Integrantes Nextfutre:
-**Geronimo Augusto rm557170**
-**Ana Laura rm554375**
-**Murilo Cordeiro rm556727**
-**Vitor Augusto rm555469**
+**Geronimo Augusto**: 557170
+**Ana Laura**: 554375
+**Murilo Cordeiro**: 556727
+**Vitor Augusto**: 555469
 
 ## Descrição
 Este projeto controla o LED onboard de um ESP32 e envia o status do LED (ligado ou desligado) para um broker MQTT. Além disso, o código realiza a leitura do sensor de luminosidade e publica os valores de luminosidade em um tópico específico do broker MQTT.
